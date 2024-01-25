@@ -1,59 +1,80 @@
-# Domoticz
-
-Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device
-
-## Multi platform: Linux/Windows/Embedded Devices
-
-This system is designed to operate in various operating systems.
-The user-interface is a scalable HTML5 web frontend, and is automatically adapted for Desktop and Mobile Devices.
-Compatible with all recent browsers
-
-Some Information
-- Hardware: RFXCOM Transceiver, Zigbee, Z-Wave, P1 Smart Meter, YouLess Meter, Pulse Counters, 1-Wire, Philips Hue and a lot more....
-- Extended logging
-- iPhone / Android / Windows 10 (Phone & Desktop) push notifications
-- Auto learning sensors/switches
-- Manual creation of switch codes
-- Share / Use external devices
-- Designed for simplicity
-
-## Support
-
-By default Domoticz is protected by a username (admin) and password (domoticz).
-
-Please either change the password as soon as possible or create a different admin user and remove the default (admin) user.
-
-More information on securing your Domoticz setup can be found in the [SECURITY SETUP](SECURITY_SETUP.md) documentation.
-
-Your first place for support is the [Domoticz Forum](http://www.domoticz.com/forum)
-
-The Github issue tracker is NOT for end-user support.
-
-## Security issues
-
-See the [Security](SECURITY.md) file for more information.
-
-## Donations
-Donations are more than welcome and will be used to buy new hardware, devices, sensors, hosting and coffee.
-If you like the product or encourage the development, please use the link:
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=6S2CXM772QY84&currency_code=EUR&source=url)
-
-# More information
-* Website: http://www.domoticz.com
-* Forum http://www.domoticz.com/forum
-* Wiki http://www.domoticz.com/wiki
-
-<p>
-  <a href="https://www.digitalocean.com/?refcode=323b5500715a&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="201px">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-domoticz" class="anchor" aria-hidden="true" tabindex="-1" href="#domoticz"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多莫蒂茨</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Domoticz 是一个家庭自动化系统，可让您监控和配置各种设备，例如：灯、开关、各种传感器/仪表（例如温度、雨、风、紫外线、Electra、煤气、水等）。</font><font style="vertical-align: inherit;">通知/警报可以发送到任何移动设备</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-multi-platform-linuxwindowsembedded-devices" class="anchor" aria-hidden="true" tabindex="-1" href="#multi-platform-linuxwindowsembedded-devices"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多平台：Linux/Windows/嵌入式设备</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该系统设计用于在各种操作系统中运行。</font><font style="vertical-align: inherit;">用户界面是一个可扩展的 HTML5 Web 前端，并自动适应桌面和移动设备。</font><font style="vertical-align: inherit;">与所有最新浏览器兼容</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些信息</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">硬件：RFXCOM 收发器、Zigbee、Z-Wave、P1 智能电表、YouLess Meter、脉冲计数器、1-Wire、Philips Hue 等等...</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扩展日志记录</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iPhone / Android / Windows 10（手机和桌面）推送通知</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动学习传感器/开关</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手动创建开关代码</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">共享/使用外部设备</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为简单而设计</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-support" class="anchor" aria-hidden="true" tabindex="-1" href="#support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，Domoticz 受用户名 (admin) 和密码 (domoticz) 保护。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请尽快更改密码或创建不同的管理员用户并删除默认（管理员）用户。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关保护 Domoticz 设置的更多信息，请参阅</font></font><a href="/domoticz/domoticz/blob/development/SECURITY_SETUP.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全设置</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您第一个寻求支持的地方是</font></font><a href="http://www.domoticz.com/forum" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Domoticz 论坛</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Github 问题跟踪器不适用于最终用户支持。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-security-issues" class="anchor" aria-hidden="true" tabindex="-1" href="#security-issues"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全问题</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关详细信息，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="/domoticz/domoticz/blob/development/SECURITY.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全文件。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-donations" class="anchor" aria-hidden="true" tabindex="-1" href="#donations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捐款</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们非常欢迎捐款，捐款将用于购买新的硬件、设备、传感器、托管和咖啡。</font><font style="vertical-align: inherit;">如果您喜欢该产品或鼓励开发，请使用以下链接：</font></font></p>
+<p dir="auto"><animated-image data-catalyst=""><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=6S2CXM772QY84&amp;currency_code=EUR&amp;source=url" rel="nofollow" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/0a31b77e557770b69a69849e427a3f7a6a16e8419608ed5f4ccfa24cc2eb53d8/68747470733a2f2f7777772e70617970616c6f626a656374732e636f6d2f656e5f55532f692f62746e2f62746e5f646f6e61746543435f4c472e676966" alt="贝宝" data-canonical-src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=6S2CXM772QY84&amp;currency_code=EUR&amp;source=url" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="贝宝" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/0a31b77e557770b69a69849e427a3f7a6a16e8419608ed5f4ccfa24cc2eb53d8/68747470733a2f2f7777772e70617970616c6f626a656374732e636f6d2f656e5f55532f692f62746e2f62746e5f646f6e61746543435f4c472e676966" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="147" height="47"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="玩贝宝" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="玩贝宝">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="在新窗口中打开贝宝" class="AnimatedImagePlayer-button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=6S2CXM772QY84&amp;currency_code=EUR&amp;source=url" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-more-information" class="anchor" aria-hidden="true" tabindex="-1" href="#more-information"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息</font></font></h1>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站： http: </font></font><a href="http://www.domoticz.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.domoticz.com</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论坛</font></font><a href="http://www.domoticz.com/forum" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.domoticz.com/forum</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维基</font></font><a href="http://www.domoticz.com/wiki" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.domoticz.com/wiki</font></font></a></li>
+</ul>
+<p dir="auto">
+  <a href="https://www.digitalocean.com/?refcode=323b5500715a&amp;utm_campaign=Referral_Invite&amp;utm_medium=Referral_Program&amp;utm_source=badge" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/6d8f142c365641d406d9d9b0d892a7f836ffda17794d8e4912e12fa7141c5f73/68747470733a2f2f6f70656e736f757263652e6e7963332e63646e2e6469676974616c6f6365616e7370616365732e636f6d2f6174747269627574696f6e2f6173736574732f506f77657265644279444f2f444f5f506f77657265645f62795f42616467655f626c75652e737667" width="201px" data-canonical-src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" style="max-width: 100%;">
   </a>
 </p>
-
-### Build Status
-
-Status | Operating system
------------- | -------------
-![Status Linux](https://github.com/domoticz/domoticz/actions/workflows/development.yml/badge.svg) | Linux x86_64
-[![Status Windows](https://ci.appveyor.com/api/projects/status/fskiwvjs1q7svwq9?svg=true)](https://ci.appveyor.com/project/gizmocuz/domoticz) | Windows
-
+<h3 tabindex="-1" dir="auto"><a id="user-content-build-status" class="anchor" aria-hidden="true" tabindex="-1" href="#build-status"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建状态</font></font></h3>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">地位</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作系统</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener noreferrer" href="https://github.com/domoticz/domoticz/actions/workflows/development.yml/badge.svg"><img src="https://github.com/domoticz/domoticz/actions/workflows/development.yml/badge.svg" alt="Linux 状态" style="max-width: 100%;"></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linux x86_64</font></font></td>
+</tr>
+<tr>
+<td><a href="https://ci.appveyor.com/project/gizmocuz/domoticz" rel="nofollow"><img src="https://camo.githubusercontent.com/4a90266d368bc5fd6e61c929e772b6e3c740ee922f46809aa0d2e243680c2e5f/68747470733a2f2f63692e6170707665796f722e636f6d2f6170692f70726f6a656374732f7374617475732f66736b6977766a7331713773767771393f7376673d74727565" alt="状态窗口" data-canonical-src="https://ci.appveyor.com/api/projects/status/fskiwvjs1q7svwq9?svg=true" style="max-width: 100%;"></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视窗</font></font></td>
+</tr>
+</tbody>
+</table>
+</article></div>
